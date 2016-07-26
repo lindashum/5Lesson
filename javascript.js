@@ -17,6 +17,9 @@ var computerTypes = {
 	brand: Apple
 	version: Macbook Air
 	screenSize: "13in"
+=======
+// Object: {key= value, key=value} → curly brackets
+
 ////// Variables: are containers for storing data. They are treated as a SINGLE VALUE.
 // Combining variables:
 var a = 0;
@@ -30,16 +33,27 @@ var numbers = [0, 100, 200, 300, 400];
 var numbersAndColors = [numbers, colors];
 
 console.log(numbersAndColors[1][0]);
+=======
+console.log(numbersAndColors)[1][0]
 
 // Variables of objects:
 var smalltalk = {
 	breed: "Samoyed"
 	age: 3
+=======
+	age: 3,
 	dob: "sept 29 2012"
 }
 console.log(smalltalk["breed"]);
 // same as console.log(smalltalk.breed)
 
+
+=======
+alert("Hello World!");
+
+function logToHTML() {
+	document.getElementByID("title").innerHTML="TEST";
+}
 
 
 
@@ -57,14 +71,27 @@ var Shum = {
 	interests: ["movies", "knitting"]
 }
 console.log(shum.interests[1])
+=======
+var names = "Linda","Diana","Alex","Pomelo";
+var titles = "youngest", "middle", "oldest","rabbit";
+console.log(names + " is " + titles);
+
+var Shum = {
+	firstName: "Linda"
+	lastName: "Shum"
+	birthday: "Dec 27 1987"
+	interests: ["movies", "knitting"]
+}
+	
+console.log(shum.interests[0]);
 
 // delare your variable//////
 var sentence1= "I am a sentence";
 var sentence2= "Totally different sentence";
 // run your logical test
 if (sentence1 === sentence2) {
-	alert("your sentences are the same")
+	alert("your sentences are the same");
 } else {
-	alert("your sentences are not the same")
+	alert("your sentences are not the same");
 }
-console.log(sentence1 + sentence);
+console.log(sentence1 + sentence2);
