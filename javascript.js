@@ -57,8 +57,6 @@ function logToHTML() {
 
 
 
-
-
 ////////////////// PRACTICE
 var names = ["Linda","Diana","Alex","Pomelo"];
 var titles = ["youngest", "middle", "oldest","rabbit"];
