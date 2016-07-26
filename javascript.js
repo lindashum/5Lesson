@@ -29,7 +29,7 @@ var colors = ["red","pink","purple"];
 var numbers = [0, 100, 200, 300, 400];
 var numbersAndColors = [numbers, colors];
 
-console.log(numbersAndColors)[1][0]
+console.log(numbersAndColors[1][0]);
 
 // Variables of objects:
 var smalltalk = {
@@ -46,23 +46,23 @@ console.log(smalltalk["breed"]);
 
 
 ////////////////// PRACTICE
-var names = "Linda","Diana","Alex","Pomelo";
-var titles = "youngest", "middle", "oldest","rabbit";
+var names = ["Linda","Diana","Alex","Pomelo"];
+var titles = ["youngest", "middle", "oldest","rabbit"];
 console.log(names + " is " + titles);
 
 var Shum = {
-	firstName: "Linda"
-	lastName: "Shum"
-	birthday: "Dec 27 1987"
+	firstName: "Linda",
+	lastName: "Shum",
+	birthday: "Dec 27 1987",
 	interests: ["movies", "knitting"]
 }
-console.log(shum.interests[2])
+console.log(shum.interests[1])
 
 // delare your variable//////
 var sentence1= "I am a sentence";
 var sentence2= "Totally different sentence";
 // run your logical test
-if (sentence1 =sentence2) {
+if (sentence1 === sentence2) {
 	alert("your sentences are the same")
 } else {
 	alert("your sentences are not the same")
